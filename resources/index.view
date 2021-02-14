@@ -1,0 +1,127 @@
+<svg viewport-fill="black">
+  <!-- date circle -->
+  <g transform="translate(20%,20%)">
+    <circle cx="0" cy="0" r="40" fill="fb-extra-dark-gray" />
+    <text x="0" y="-10" text-anchor="middle" font-size="16" id="dayName" fill="lightgrey"></text>
+    <text x="0" y="24" text-anchor="middle" font-size="38" id="date" fill="white"></text>
+  </g>
+
+  <!-- time circle -->
+  <g transform="translate(20%,50%)">
+    <circle cx="0" cy="0" r="40" fill="fb-extra-dark-gray" />
+    <text x="0" y="8" text-length="50" text-anchor="middle" font-size="24" id="digitalTime" fill="lightgrey"></text>
+  </g>
+
+  <!-- stats rectangle -->
+  <g transform="translate(50%,80%)">
+    <rect x="-125" y="-35" width="250" height="70" fill="fb-extra-dark-gray" rx="10" ry="10" />
+    <g>
+      <!-- <image x="-115" y="-24" href="heart-pngrepo-com.png" height="25" width="25" id="heartImg" /> -->
+      <text x="-115" y="-4" text-length="50" font-size="20" id="heartRate" fill="red"></text>
+    </g>
+    <g>
+      <!-- <image x="-115" href="shoe-pngrepo-com.png" height="30" width="30"  id="shoeImg"/> -->
+      <text x="-115" y="20" text-length="50" font-size="20" id="steps" fill="yellow"></text>
+    </g>
+    <g>
+      <image x="85" y="-24" href="battery-pngrepo-com.png" height="30" width="30" id="batteryImg"/>
+      <text x="115" y="20" text-length="50" text-anchor="end" font-size="20" id="batteryText" fill="white"></text>
+    </g>
+  </g>
+
+  <!-- clock background circle -->
+  <circle cx="65%" cy="35%" r="100" fill="#383838" />
+
+  <!-- clock outer lines -->
+  <g transform="translate(65%,35%)">
+    <!-- 12, 3, 6, and 9 oclock -->
+    <rect x="-2" y="-98" width="4" height="20" fill="white" rx="2" ry="2" />
+    <rect x="78" y="-2" width="20" height="4" fill="white" rx="2" ry="2" />
+    <rect x="-2" y="78" width="4" height="20" fill="white" rx="2" ry="2" />
+    <rect x="-98" y="-2" width="20" height="4" fill="white" rx="2" ry="2" />
+  </g>
+  <g transform="translate(65%,35%)">
+    <!-- 1 and 2 oclock -->
+    <line x1="48" y1="-84" x2="39" y2="-68" fill="white" stroke-width="4" stroke-linecap="round" />
+    <line x1="84" y1="-48" x2="68" y2="-39" fill="white" stroke-width="4" stroke-linecap="round" />
+    <!-- 1 and 2 oclock -->
+    <line x1="-48" y1="-84" x2="-39" y2="-68" fill="white" stroke-width="4" stroke-linecap="round" />
+    <line x1="-84" y1="-48" x2="-68" y2="-39" fill="white" stroke-width="4" stroke-linecap="round" />
+    <!-- 1 and 2 oclock -->
+    <line x1="-48" y1="84" x2="-39" y2="68" fill="white" stroke-width="4" stroke-linecap="round" />
+    <line x1="-84" y1="48" x2="-68" y2="39" fill="white" stroke-width="4" stroke-linecap="round" />
+    <!-- 1 and 2 oclock -->
+    <line x1="48" y1="84" x2="39" y2="68" fill="white" stroke-width="4" stroke-linecap="round" />
+    <line x1="84" y1="48" x2="68" y2="39" fill="white" stroke-width="4" stroke-linecap="round" />
+  </g>
+  <g transform="translate(65%,35%)">
+    <line x1="10" y1="-95" x2="9" y2="-88" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="20" y1="-94" x2="18" y2="-86" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="30" y1="-91" x2="27" y2="-84" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="39" y1="-88" x2="35" y2="-81" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="56" y1="-78" x2="52" y2="-71" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="64" y1="-71" x2="59" y2="-65" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="71" y1="-64" x2="65" y2="-59" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="78" y1="-56" x2="71" y2="-52" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="88" y1="-39" x2="80" y2="-36" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="91" y1="-30" x2="83" y2="-28" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="94" y1="-20" x2="86" y2="-19" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="95" y1="-10" x2="87" y2="-9" fill="grey" stroke-width="2" stroke-linecap="round" />
+    
+    <line x1="10" y1="95" x2="9" y2="88" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="20" y1="94" x2="18" y2="86" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="30" y1="91" x2="27" y2="84" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="39" y1="88" x2="35" y2="81" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="56" y1="78" x2="52" y2="71" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="64" y1="71" x2="59" y2="65" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="71" y1="64" x2="65" y2="59" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="78" y1="56" x2="71" y2="52" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="88" y1="39" x2="80" y2="36" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="91" y1="30" x2="83" y2="28" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="94" y1="20" x2="86" y2="19" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="95" y1="10" x2="87" y2="9" fill="grey" stroke-width="2" stroke-linecap="round" />
+
+    <line x1="-10" y1="95" x2="-9" y2="88" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-20" y1="94" x2="-18" y2="86" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-30" y1="91" x2="-27" y2="84" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-39" y1="88" x2="-35" y2="81" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-56" y1="78" x2="-52" y2="71" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-64" y1="71" x2="-59" y2="65" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-71" y1="64" x2="-65" y2="59" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-78" y1="56" x2="-71" y2="52" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-88" y1="39" x2="-80" y2="36" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-91" y1="30" x2="-83" y2="28" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-94" y1="20" x2="-86" y2="19" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-95" y1="10" x2="-87" y2="9" fill="grey" stroke-width="2" stroke-linecap="round" />
+
+    <line x1="-10" y1="-95" x2="-9" y2="-88" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-20" y1="-94" x2="-18" y2="-86" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-30" y1="-91" x2="-27" y2="-84" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-39" y1="-88" x2="-35" y2="-81" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-56" y1="-78" x2="-52" y2="-71" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-64" y1="-71" x2="-59" y2="-65" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-71" y1="-64" x2="-65" y2="-59" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-78" y1="-56" x2="-71" y2="-52" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-88" y1="-39" x2="-80" y2="-36" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-91" y1="-30" x2="-83" y2="-28" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-94" y1="-20" x2="-86" y2="-19" fill="grey" stroke-width="2" stroke-linecap="round" />
+    <line x1="-95" y1="-10" x2="-87" y2="-9" fill="grey" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- clock hands -->
+  <g id="minutes" pointer-events="visible" transform="translate(65%,35%)">
+    <rect x="-1" y="-20" width="2" height="20" fill="white" />
+    <rect x="-3" y="-90" width="6" height="78" fill="white" rx="4" ry="4" />
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(65%,35%)">
+    <rect x="-1" y="-20" width="2" height="20" fill="white" />
+    <rect x="-3" y="-65" width="6" height="52" fill="white" rx="4" ry="4" />
+  </g>
+  <g id="seconds" pointer-events="visible" transform="translate(65%,35%)">
+    <rect x="-1" y="-95" width="1" height="110" fill="#5e5e5e" />
+  </g>
+
+  <!-- clock center circle -->
+  <circle cx="65%" cy="35%" r="4" fill="white" />
+  <circle cx="65%" cy="35%" r="2" fill="fb-extra-dark-gray" />
+</svg>
